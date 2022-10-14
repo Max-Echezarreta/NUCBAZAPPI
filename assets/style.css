@@ -39,6 +39,57 @@
 
 
 /*CATEGORIES: MAX*/
+#categories {
+    align-content:center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+#categories h3 {
+color: var(--texto);
+align-content: space-between;
+align-items: center;
+display: flex;
+padding: 30px;
+font-size: 12px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.categories div {
+    
+}
+
+.categories img {
+    width: 60px;
+}
+
+.categories p {
+    color: var(--texto);
+    font-size: 10px;
+    align-items: center;
+    align-content: center;
+}
+ 
+.hr {
+    flex-direction: row;
+    width: 20px;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: var(--bg-gradient);
+    border-style: none;
+}
+
+
+
 
 /*FIN CATEGORIES MAX*/
 
