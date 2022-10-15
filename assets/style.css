@@ -16,6 +16,9 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     list-style: none;
+}
+
+body{
     background: var(--bg-negro);
 }
 
@@ -46,6 +49,100 @@
 
 /*PRODUCTS: AYE*/
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#products{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#products h2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.83px;
+    color: var(--texto);
+    align-self: flex-start;
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 31px 0;
+    max-width: 1200px;  
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    border-radius: 17px;
+    padding: 16px 22px 18px 23px;
+    background: var(--bg-gris);    
+}
+
+.product img{
+    border-radius: 16px;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-top{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-top h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--texto);
+}
+
+.product-top p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: var(--texto);
+    opacity: 30%;
+}
+
+.product-bot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-bot span{
+    font-size: 19px;
+    font-weight: 700;    
+    background: var(--bg-gradient);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    align-self: center;
+}
+
+.product-bot button{
+    background: var(--bg-gradient);
+    color: var(--texto);
+    border-radius: 17.5px;
+    cursor: pointer;
+    border-style: none;
+    padding: 7px 15px 7px 16px;
+}
 /*FIN PRODUCTS AYE*/
 
 

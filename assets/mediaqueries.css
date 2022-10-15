@@ -26,6 +26,14 @@
 
 /*PRODUCTS: AYE*/
 
+#products h2{
+    align-self: center;
+}
+
+.products-container{
+    gap: 18px;
+}
+
 /*FIN PRODUCTS AYE*/
 
 
@@ -66,6 +74,10 @@
 
 /*PRODUCTS: AYE*/
 
+.products-container{
+    gap: 13px;
+    padding: 10px 0;
+}
 /*FIN PRODUCTS AYE*/
 
 
