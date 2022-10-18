@@ -3,8 +3,8 @@
 /* HEADER */
 .navbar{
     gap: 20px;
- }
- .navbar-list{
+}
+.navbar-list{
     position: absolute;
     top: 100px;
     right: 5%;
@@ -23,9 +23,9 @@
     font-size: 18px;
 }
 .menu-label{
-       display: flex;
-        cursor: pointer;
-        order: 2;
+    display: flex;
+    cursor: pointer;
+    order: 2;
 }
 .menu-label img{
     height: 35px;
@@ -34,7 +34,6 @@
 #menu-toggle:checked + .navbar-list{
     display: flex;
 }
-
 /* MAIN */
 #hero{
     padding: 40px 0;
@@ -63,7 +62,6 @@
     gap: 18px;
 }
 }
-
 
 @media(max-width:576px){
 
@@ -95,7 +93,6 @@
 .cart-item {
     flex-wrap: wrap;
 }
-
 /* MAIN */
 .discovercardsconteiner{
     padding: 10px 5px;
@@ -114,11 +111,9 @@
 .products-container{
     padding: 10px 0;
 }
-
 /* FOOTER */
 .footer-links{
     flex-direction: column;
     text-align: center;
 }
-
 }
